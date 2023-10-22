@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Author: Alanna San Luis
+  Project: MatchmakerWeb
+-->
+<head>
+  <title>Matchmaker!</title>
+  <meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="matchmaker.css">
+</head>
+
+<html>
+<body>
+
+  <h1>Welcome to Matchmaker!</h1>
+  <p1>This Matchmaking Website is designed to see if your compatable to be future best friends! You simply have to answer five questions.</p1>
+  <p1>When it comes to answering each question, strongly agree is 5, just simply agreeing is 4, if neutral then 3, 2 is if you disagree, and strongly disagree is 1.</p1>
+  </p1>
+  <br /><br /><br />
+
+  <html>
+<head>
+<style>
+h1 {
+    text-align: center;
+}
+
+</style>
+</head>
+</html>
+
+
+<br><label>Buying books and reading books are considered two different hobbies.</label></br>
+  <select id="q1">
+      <option value="5">Strongly Agree</option>
+      <option value="4">Agree</option>
+      <Option value="3">Neutral</Option>
+      <option value="2">Disagree</option>
+      <option value="1">Strongly Disagree</option>
+  </select>
+   
+
+<br /><br /><br />
+  <br><label>Chocolate is the best in the world</label></br>
+    <select id="q2">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <Option value="3">Neutral</Option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select>
+     
+
+
+    <br /><br /><br />
+    <br><label>Thriller movies are the worst genre.</label></br>
+      <select id="q3">
+          <option value="5">Strongly Agree</option>
+          <option value="4">Agree</option>
+          <Option value="3">Neutral</Option>
+          <option value="2">Disagree</option>
+          <option value="1">Strongly Disagree</option>
+      </select>
+     
+
+      <br /><br /><br />
+    <br><label>Disney and Nickolodeon shows now are trash.</label></br>
+    <select id="q4">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <Option value="3">Neutral</Option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select>
+     
+
+    <br /><br /><br />
+    <br><label>Arctic monkeys have good music.</label></br>
+      <select id="q5">
+          <option value="5">Strongly Agree</option>
+          <option value="4">Agree</option>
+          <Option value="3">Neutral</Option>
+          <option value="2">Disagree</option>
+          <option value="1">Strongly Disagree</option>
+      </select>
+       
+      
+      <br /><br /><br />
+      <button onclick="CalculateCompatibility()">Calculate Compatibility</button>
+      <p id="Compatibility"></p>
+      <p id="Message"></p>
+      <script src="matchmaker.js"></script>
+    

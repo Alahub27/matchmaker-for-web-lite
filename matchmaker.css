@@ -1,0 +1,11 @@
+label {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+label {font-style:inherit;}
+label {color:rgb(7, 2, 35);}
+label {font-size: larger;}
+
+body {background-image: url("hearty.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+p1 {font-size: larger;}
